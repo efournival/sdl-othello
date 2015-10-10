@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Othello" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Othello" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Weffc++" />
+					<Add option="-Wmain" />
+					<Add option="-pedantic" />
+					<Add option="-std=c++11" />
+					<Add option="-Wfatal-errors" />
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Othello" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-fomit-frame-pointer" />
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-Os" />
+					<Add option="-O3" />
+					<Add option="-O2" />
+					<Add option="-O1" />
+					<Add option="-O" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+		</Compiler>
+		<Linker>
+			<Add option="-lSDLmain" />
+			<Add option="-lSDL" />
+			<Add option="-lSDL_ttf" />
+		</Linker>
+		<Unit filename="Horloge.cpp" />
+		<Unit filename="Horloge.h" />
+		<Unit filename="Jeu.cpp" />
+		<Unit filename="Jeu.h" />
+		<Unit filename="Sequenceur.cpp" />
+		<Unit filename="Sequenceur.h" />
+		<Unit filename="affichage/Image.cpp" />
+		<Unit filename="affichage/Image.h" />
+		<Unit filename="affichage/Sprite.cpp" />
+		<Unit filename="affichage/Sprite.h" />
+		<Unit filename="affichage/Tuile.cpp" />
+		<Unit filename="affichage/Tuile.h" />
+		<Unit filename="fichiers/Configuration.cpp" />
+		<Unit filename="fichiers/Configuration.h" />
+		<Unit filename="fichiers/Replay.cpp" />
+		<Unit filename="fichiers/Replay.h" />
+		<Unit filename="interface/AutoMenu.cpp" />
+		<Unit filename="interface/AutoMenu.h" />
+		<Unit filename="interface/Bouton.cpp" />
+		<Unit filename="interface/Bouton.h" />
+		<Unit filename="interface/Composant.h" />
+		<Unit filename="interface/Interface.cpp" />
+		<Unit filename="interface/Interface.h" />
+		<Unit filename="interface/Menu.cpp" />
+		<Unit filename="interface/Menu.h" />
+		<Unit filename="interface/MenuJouer.cpp" />
+		<Unit filename="interface/MenuJouer.h" />
+		<Unit filename="interface/Message.cpp" />
+		<Unit filename="interface/Message.h" />
+		<Unit filename="interface/SelecteurNom.cpp" />
+		<Unit filename="interface/SelecteurNom.h" />
+		<Unit filename="jeu/Joueur.cpp" />
+		<Unit filename="jeu/Joueur.h" />
+		<Unit filename="jeu/Partie.cpp" />
+		<Unit filename="jeu/Partie.h" />
+		<Unit filename="jeu/Plateau.cpp" />
+		<Unit filename="jeu/Plateau.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
