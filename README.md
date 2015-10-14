@@ -1,7 +1,7 @@
 # sdl-othello
 Projet scolaire de premier semestre de DUT
 
-**Attention** : c'est moyennement bien codé et l'architecture du code est largement améliorable. Les commentaires étaient obligatoires...
+**Attention** : c'est moyennement bien codé et l'architecture du code est largement améliorable.
 
 Cependant le jeu est très complet, 100 % fonctionnel et sans bug. Il comporte notamment :
  - une interface graphique rétro
