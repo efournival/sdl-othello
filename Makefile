@@ -19,7 +19,7 @@ LIB =
 LDFLAGS = -lSDLmain -lSDL -lSDL_ttf
 
 INC_DEBUG = $(INC)
-CFLAGS_DEBUG = $(CFLAGS) -Weffc++ -Wmain -pedantic -Wextra -Wall -g
+CFLAGS_DEBUG = $(CFLAGS) -Wall -Wextra -g
 RESINC_DEBUG = $(RESINC)
 RCFLAGS_DEBUG = $(RCFLAGS)
 LIBDIR_DEBUG = $(LIBDIR)
@@ -30,7 +30,7 @@ DEP_DEBUG =
 OUT_DEBUG = bin/Debug/Othello
 
 INC_RELEASE = $(INC)
-CFLAGS_RELEASE = $(CFLAGS) -fomit-frame-pointer -fexpensive-optimizations -Os -O3 -O2 -O1 -O
+CFLAGS_RELEASE = $(CFLAGS) -Os -O3 -s
 RESINC_RELEASE = $(RESINC)
 RCFLAGS_RELEASE = $(RCFLAGS)
 LIBDIR_RELEASE = $(LIBDIR)
